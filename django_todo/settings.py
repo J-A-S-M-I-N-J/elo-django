@@ -27,6 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
+ALLOWED_HOSTS = ['zugzug-djamgo-todo-app.herokuapp.com/']
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-5t&j9=j4ug41)zckr&5f8+q!!9!f5^n%@77sk(=tp6ly@h53f4'
 
